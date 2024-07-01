@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="4789" started-at="2024-07-01T02:30:57Z" finished-at="2024-07-01T02:31:02Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:dipu.runners.RunnerClass@5034c75a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Hulk" duration-ms="4789" started-at="2024-07-01T02:30:57Z" finished-at="2024-07-01T02:31:02Z">
+      <class name="dipu.runners.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:dipu.runners.RunnerClass@5034c75a]" name="setUpClass" is-config="true" duration-ms="153" started-at="2024-06-30T22:30:57Z" finished-at="2024-06-30T22:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:dipu.runners.RunnerClass@5034c75a]" name="feature" duration-ms="4361" started-at="2024-06-30T22:30:57Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-06-30T22:31:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:dipu.runners.RunnerClass@5034c75a]" name="writeExtentReport" is-config="true" duration-ms="12" started-at="2024-06-30T22:31:01Z" finished-at="2024-06-30T22:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:dipu.runners.RunnerClass@5034c75a]" name="tearDownClass" is-config="true" duration-ms="203" started-at="2024-06-30T22:31:01Z" finished-at="2024-06-30T22:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- dipu.runners.RunnerClass -->
+    </test> <!-- Hulk -->
+  </suite> <!-- Regression -->
+</testng-results>

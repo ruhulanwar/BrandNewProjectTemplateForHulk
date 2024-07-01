@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2140622400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Testing A Feature Scenario",
+        "description": "",
+        "id": "a-feature;testing-a-feature-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 705578200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1365851200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a",
+            "match": {
+              "location": "TestTheFeature.a()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "b",
+            "match": {
+              "location": "TestTheFeature.b()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "c",
+            "match": {
+              "location": "TestTheFeature.c()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "A Feature",
+    "description": "",
+    "id": "a-feature",
+    "keyword": "Feature",
+    "uri": "TestAFeature.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
