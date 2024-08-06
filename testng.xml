@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression">
-  <test name="Hulk">
+  <test name="drugs">
    <classes>
-      <class name="dipu.runners.RunnerClass"/>
+      <class name="hulk.runners.RunnerClass"/>
     </classes>
   </test> <!-- Test -->
-</suite> <!-- Suite -->
+</suite> <!-- Suite -->
+
+
+<!--Parallel Execution
+    
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name= "Regression" parallel="tests" thread-count="2">
+    <test name="drugs">
+    <classes>
+    	<class name="hulk.runners.RunnerClass"/>
+    	</classes>
+    </test> <!-- Test -->
+    </suite> <!-- Suite -->
+    
+    
+    -->

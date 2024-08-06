@@ -2,23 +2,23 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>BrandNewProject</groupId>
-  <artifactId>BrandNewProject</artifactId>
+  <groupId>SaturdayHulkProject</groupId>
+  <artifactId>SaturdayHulkProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>BrandNewProject</name>
+  <name>SaturdayHulkProject</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <dependencies>
+ <dependencies>
 	<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>5.9.1</version>
+			<version>5.5.3</version>
 			<scope>test</scope>
 		</dependency>
 
