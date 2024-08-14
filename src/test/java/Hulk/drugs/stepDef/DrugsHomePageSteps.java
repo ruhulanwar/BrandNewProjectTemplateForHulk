@@ -19,9 +19,7 @@ public class DrugsHomePageSteps {
 	}
 	@When("^The user clicks on the Contact Us button$")
 	public void the_user_clicks_on_the_Contact_Us_button() throws Throwable {
-	   
-	
-	   DrugsHomePageActionsobj.ClickContactUs();
+	   		   DrugsHomePageActionsobj.ClickContactUs();
 	}
 	
 	@When("^the user clicks on Side Effects$")

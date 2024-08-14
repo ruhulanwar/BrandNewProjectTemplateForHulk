@@ -16,9 +16,9 @@ public class DrugsFormPageLocators {
 	@FindBy(xpath="//textarea[@name='message']")
 	public WebElement Message;
 	
-	@FindBy (xpath="//input[@type='checkbox']")
+	@FindBy (xpath="////input[@type= 'checkbox']")
 	public WebElement chckbox;
 	
-	@FindBy(xpath="")
+	@FindBy(xpath="(//button[@type='submit'])[2]")
 	public WebElement Submit;
 }

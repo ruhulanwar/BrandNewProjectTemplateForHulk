@@ -1,0 +1,222 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "The user is on drugs.com Homepage.",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3743584300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User can fill out the form through contact us button on the homepage.",
+        "description": "",
+        "id": "contact-us-functionality-on-drugs.com;user-can-fill-out-the-form-through-contact-us-button-on-the-homepage.",
+        "after": [
+          {
+            "result": {
+              "duration": 674196900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "The user clicks on the Contact Us button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Clicks on the Contact form button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Selects the app feedback/suggestion from the drop down.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Fills out the Name,Email address and Message",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Selects the checkbox to accept the policy",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Clicks on the Submit button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Validates the Message Sent on the Page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Contact Us functionality on drugs.com",
+    "description": "",
+    "id": "contact-us-functionality-on-drugs.com",
+    "keyword": "Feature",
+    "uri": "ContactUs.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "\r\nGiven:The user is on the Drugs.com homepage.",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3004232000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "The User searches for Metformin information",
+        "description": "",
+        "id": "drug-\u0026-medication-functionality;the-user-searches-for-metformin-information",
+        "after": [
+          {
+            "result": {
+              "duration": 683455900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "the user clicks on Drugs \u0026 Medication",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "enters the drug name",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "clicks on the search button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "the drug information is provided.",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Drug \u0026 Medication functionality",
+    "description": "",
+    "id": "drug-\u0026-medication-functionality",
+    "keyword": "Feature",
+    "uri": "Drugs\u0026Medication.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]

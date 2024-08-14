@@ -9,7 +9,6 @@ public class DrugsContactResultPageSteps {
 	
 	@Then("^Validates the Message Sent on the Page$")
 	public void validates_the_Message_Sent_on_the_Page() throws Throwable {
-	 
-	   DrugsContactResultPageActionsobj.validateMsg();
+	 	   DrugsContactResultPageActionsobj.validateMsg();
 	}
 }
