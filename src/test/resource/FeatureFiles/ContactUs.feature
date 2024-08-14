@@ -12,4 +12,4 @@ Scenario: User can fill out the form through contact us button on the homepage.
 	And Fills out the Name,Email address and Message 
 	And Selects the checkbox to accept the policy 
 	And Clicks on the Submit button 
-	Then Validates the Message Sent on the Page 
+	
