@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3743584300,
+  "duration": 4803681500,
   "status": "passed"
 });
 formatter.background({
@@ -28,9 +28,12 @@ formatter.step({
   "name": "The user is on drugs.com Homepage.",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "DrugsHomePageSteps.the_user_is_on_drugs_com_Homepage()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 142405300,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 7,
@@ -70,41 +73,50 @@ formatter.step({
   "name": "Clicks on the Submit button",
   "keyword": "And "
 });
-formatter.step({
-  "line": 15,
-  "name": "Validates the Message Sent on the Page",
-  "keyword": "Then "
+formatter.match({
+  "location": "DrugsHomePageSteps.the_user_clicks_on_the_Contact_Us_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 23959090500,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "DrugsContactPageSteps.clicks_on_the_Contact_form_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 9300934000,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "DrugsFormPageSteps.selects_the_app_feedback_suggestion_from_the_drop_down()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 3153161500,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "DrugsFormPageSteps.fills_out_the_Name_Email_address_and_Message()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 9546947900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DrugsFormPageSteps.selects_the_checkbox_to_accept_the_policy()"
+});
+formatter.result({
+  "duration": 3089789600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DrugsFormPageSteps.clicks_on_the_Submit_button()"
+});
+formatter.result({
+  "duration": 3125466600,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 674196900,
+  "duration": 809139100,
   "status": "passed"
 });
 formatter.uri("Drugs\u0026Medication.feature");
@@ -122,7 +134,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3004232000,
+  "duration": 3161738100,
   "status": "passed"
 });
 formatter.background({
@@ -160,24 +172,36 @@ formatter.step({
   "name": "the drug information is provided.",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "DrugsHomePageSteps.the_user_clicks_on_Drugs_Medication()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 33311702600,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "DrugsSearchPageSteps.enters_the_drug_name()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 2145400500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DrugsSearchPageSteps.clicks_on_the_search_button()"
+});
+formatter.result({
+  "duration": 12599437500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DrugsResultPageSteps.the_drug_information_is_provided()"
+});
+formatter.result({
+  "duration": 2062267800,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 683455900,
+  "duration": 922996600,
   "status": "passed"
 });
 });

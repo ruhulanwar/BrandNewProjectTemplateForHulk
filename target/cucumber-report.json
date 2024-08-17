@@ -11,11 +11,14 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 142405300,
+              "status": "passed"
             },
             "line": 5,
             "name": "The user is on drugs.com Homepage.",
-            "match": {},
+            "match": {
+              "location": "DrugsHomePageSteps.the_user_is_on_drugs_com_Homepage()"
+            },
             "keyword": "Given "
           }
         ]
@@ -24,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 3743584300,
+              "duration": 4803681500,
               "status": "passed"
             },
             "match": {
@@ -39,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 674196900,
+              "duration": 809139100,
               "status": "passed"
             },
             "match": {
@@ -52,66 +55,75 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 23959090500,
+              "status": "passed"
             },
             "line": 9,
             "name": "The user clicks on the Contact Us button",
-            "match": {},
+            "match": {
+              "location": "DrugsHomePageSteps.the_user_clicks_on_the_Contact_Us_button()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 9300934000,
+              "status": "passed"
             },
             "line": 10,
             "name": "Clicks on the Contact form button",
-            "match": {},
+            "match": {
+              "location": "DrugsContactPageSteps.clicks_on_the_Contact_form_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3153161500,
+              "status": "passed"
             },
             "line": 11,
             "name": "Selects the app feedback/suggestion from the drop down.",
-            "match": {},
+            "match": {
+              "location": "DrugsFormPageSteps.selects_the_app_feedback_suggestion_from_the_drop_down()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 9546947900,
+              "status": "passed"
             },
             "line": 12,
             "name": "Fills out the Name,Email address and Message",
-            "match": {},
+            "match": {
+              "location": "DrugsFormPageSteps.fills_out_the_Name_Email_address_and_Message()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3089789600,
+              "status": "passed"
             },
             "line": 13,
             "name": "Selects the checkbox to accept the policy",
-            "match": {},
+            "match": {
+              "location": "DrugsFormPageSteps.selects_the_checkbox_to_accept_the_policy()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3125466600,
+              "status": "passed"
             },
             "line": 14,
             "name": "Clicks on the Submit button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
+            "match": {
+              "location": "DrugsFormPageSteps.clicks_on_the_Submit_button()"
             },
-            "line": 15,
-            "name": "Validates the Message Sent on the Page",
-            "match": {},
-            "keyword": "Then "
+            "keyword": "And "
           }
         ]
       }
@@ -142,7 +154,7 @@
         "before": [
           {
             "result": {
-              "duration": 3004232000,
+              "duration": 3161738100,
               "status": "passed"
             },
             "match": {
@@ -157,7 +169,7 @@
         "after": [
           {
             "result": {
-              "duration": 683455900,
+              "duration": 922996600,
               "status": "passed"
             },
             "match": {
@@ -170,38 +182,50 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 33311702600,
+              "status": "passed"
             },
             "line": 8,
             "name": "the user clicks on Drugs \u0026 Medication",
-            "match": {},
+            "match": {
+              "location": "DrugsHomePageSteps.the_user_clicks_on_Drugs_Medication()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2145400500,
+              "status": "passed"
             },
             "line": 9,
             "name": "enters the drug name",
-            "match": {},
+            "match": {
+              "location": "DrugsSearchPageSteps.enters_the_drug_name()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 12599437500,
+              "status": "passed"
             },
             "line": 10,
             "name": "clicks on the search button",
-            "match": {},
+            "match": {
+              "location": "DrugsSearchPageSteps.clicks_on_the_search_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2062267800,
+              "status": "passed"
             },
             "line": 11,
             "name": "the drug information is provided.",
-            "match": {},
+            "match": {
+              "location": "DrugsResultPageSteps.the_drug_information_is_provided()"
+            },
             "keyword": "Then "
           }
         ]
