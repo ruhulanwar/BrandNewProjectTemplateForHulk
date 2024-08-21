@@ -1,6 +1,7 @@
 package hulk.drugs.stepDef;
 
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import hulk.drugs.pageAction.DrugsHomePageActions;
 
@@ -22,4 +23,21 @@ public class DrugsHomePageSteps {
 	
 	   DrugsHomePageActionsobj.ClickContactUs();
 	}
+	
+	@When("^the user clicks on Side Effects$")
+	public void the_user_clicks_on_Side_Effects() throws Throwable {
+		 DrugsHomePageActionsobj.ClickSideEffects();  
+	}
+	
+	@When("^the user clicks on new drugs$")
+	public void the_user_clicks_on_new_drugs() throws Throwable {
+		 DrugsHomePageActionsobj.ClickNewDrugs();  
+	}
+	
+	@Then("^user should get all new drugs related information$")
+	public void user_should_get_all_new_drugs_related_information() throws Throwable {
+		  
+	}
+
+
 }

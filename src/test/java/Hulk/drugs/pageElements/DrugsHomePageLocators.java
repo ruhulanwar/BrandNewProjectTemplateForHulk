@@ -10,4 +10,12 @@ public WebElement DrugsandMedication;
 
 @FindBy(xpath=" //a[text()='Contact us']")
 public WebElement ContactUs;
+
+
+@FindBy(xpath="//span[contains(text(),'Effects')]")
+public WebElement SideEffects;
+
+
+@FindBy (xpath="(//a[text()='New Drugs'])[2]")
+public WebElement NewDrugs;
 }

@@ -26,5 +26,16 @@ public void ClickContactUs() throws Exception{
 	Thread.sleep(5000);
 }
 
+public void ClickSideEffects() throws Exception{
+	DrugsHomePageLocatorsobj.SideEffects.click();
+	Thread.sleep(2000);
+
 
 }
+
+public void ClickNewDrugs() throws Exception{
+	DrugsHomePageLocatorsobj.NewDrugs.click();
+	Thread.sleep(2000);
+}
+}
+

@@ -17,10 +17,8 @@ public class DrugsResultPageActions {
 		
 		Assert.assertEquals("Metformin", DrugsResultPageLocatorsobj.DrugName.getText());
 Thread.sleep(2000);
-		
-	
-	
-
-	
 	}
+	
+		
+
 	}
