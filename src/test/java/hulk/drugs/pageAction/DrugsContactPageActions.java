@@ -29,3 +29,4 @@ js.executeScript("arguments[0].scrollIntoView();", DrugsContactPageLocatorsObj.C
 		
 	}
 
+//checking

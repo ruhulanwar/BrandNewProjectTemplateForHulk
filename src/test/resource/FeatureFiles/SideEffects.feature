@@ -8,5 +8,4 @@ Background:
 	When the user clicks on Side Effects
 	And enters the drug name 
 	And clicks on the search button 
-    Then the Side Effects is provided. 
-	
+    Then the Side Effects is provided.

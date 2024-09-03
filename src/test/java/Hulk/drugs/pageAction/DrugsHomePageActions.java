@@ -38,4 +38,3 @@ public void ClickNewDrugs() throws Exception{
 	Thread.sleep(2000);
 }
 }
-
