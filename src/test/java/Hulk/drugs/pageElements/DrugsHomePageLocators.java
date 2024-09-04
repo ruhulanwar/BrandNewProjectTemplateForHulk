@@ -18,4 +18,10 @@ public WebElement SideEffects;
 
 @FindBy (xpath="(//a[text()='New Drugs'])[2]")
 public WebElement NewDrugs;
+
+@FindBy (xpath="//*[text()='Browse Conditions']")
+public WebElement BrowseConditions;
+
+@FindBy (xpath="//a[@aria-label='Browse conditions and diseases by letter: a']")
+public WebElement AlphabetA;
 }

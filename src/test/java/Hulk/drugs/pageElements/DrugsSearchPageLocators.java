@@ -10,4 +10,8 @@ public class DrugsSearchPageLocators {
 	//Search button
 	@FindBy(xpath= "//button[@class='ddc-btn']")
 	public WebElement SearchBtn;
+	@FindBy (xpath = "//input[@ placeholder='Enter a drug name']")
+	public WebElement SearchSideEffectstxtbx;
+	 @FindBy(xpath="(//button[@type='submit'])[2]")
+	 public WebElement SideEffectsSearch;
 }

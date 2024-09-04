@@ -15,12 +15,14 @@ public class SideEffectsResultPageActions {
 		 SideEffectsResultPageLocatorsobj= new  SideEffectsResultPageLocators();
 		PageFactory.initElements(SetupDrivers.driver, SideEffectsResultPageLocatorsobj);
 	}
-	public void verifySideEffects() throws Exception{
+	//public void verifySideEffects() throws Exception{
 		
-		Assert.assertEquals("Adderall",  SideEffectsResultPageLocatorsobj.SideEffectsForAdderall.getText());
-Thread.sleep(2000);
-	}
-	
-		
+		//Assert.assertEquals("Adderall",  SideEffectsResultPageLocatorsobj.SideEffectsForAdderall.getText());
+//Thread.sleep(2000);
+	//}
+	public void verifysideEffects() throws Exception{
+		Assert.assertEquals("Adderall", SideEffectsResultPageLocatorsobj.SideEffects.getText());
+		Thread.sleep(2000);
 
 	}
+}

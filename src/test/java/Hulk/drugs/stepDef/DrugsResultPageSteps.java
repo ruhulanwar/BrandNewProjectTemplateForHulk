@@ -12,5 +12,9 @@ public class DrugsResultPageSteps {
 	   
 	}
 	
+	@Then("^user should get all information realted to abdominal pain$")
+	public void user_should_get_all_information_realted_to_abdominal_pain() throws Throwable {
+	  DrugsResultPageActionsobj.verifyAbdominalPain();
+	}
 
 }

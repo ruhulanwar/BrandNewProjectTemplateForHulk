@@ -34,10 +34,16 @@ public class DrugsHomePageSteps {
 		 DrugsHomePageActionsobj.ClickNewDrugs();  
 	}
 	
-	@Then("^user should get all new drugs related information$")
-	public void user_should_get_all_new_drugs_related_information() throws Throwable {
-		  
+
+
+	@When("^User clicks on Browse Conditions on the homepage$")
+	public void user_clicks_on_Browse_Conditions_on_the_homepage() throws Throwable {
+	 DrugsHomePageActionsobj.ClickBrowseConditions();
 	}
 
+	@When("^User clicks on Alphabet A below the condition$")
+	public void user_clicks_on_Alphabet_A_below_the_condition() throws Throwable {
+	 DrugsHomePageActionsobj.ClickAlphabet();
+	}
 
 }

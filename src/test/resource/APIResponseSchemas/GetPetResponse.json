@@ -18,7 +18,7 @@
             "default": 0,
             "title": "The id Schema",
             "examples": [
-                35
+                100
             ]
         },
         "category": {
@@ -35,7 +35,7 @@
                     "default": 0,
                     "title": "The id Schema",
                     "examples": [
-                        35
+                        100
                     ]
                 },
                 "name": {
@@ -48,7 +48,7 @@
                 }
             },
             "examples": [{
-                "id": 35,
+                "id": 100,
                 "name": "cat"
             }]
         },
@@ -129,9 +129,9 @@
         }
     },
     "examples": [{
-        "id": 35,
+        "id": 100,
         "category": {
-            "id": 35,
+            "id": 100,
             "name": "cat"
         },
         "name": "Julie",

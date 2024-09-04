@@ -37,4 +37,15 @@ public void ClickNewDrugs() throws Exception{
 	DrugsHomePageLocatorsobj.NewDrugs.click();
 	Thread.sleep(2000);
 }
+
+public void  ClickBrowseConditions() throws Exception{
+DrugsHomePageLocatorsobj.BrowseConditions.click();
+Thread.sleep(2000);
+}
+
+public void ClickAlphabet() throws Exception{
+DrugsHomePageLocatorsobj.AlphabetA.click();
+Thread.sleep(2000);
+}
+
 }

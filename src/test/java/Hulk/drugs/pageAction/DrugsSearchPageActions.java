@@ -15,8 +15,19 @@ public class DrugsSearchPageActions {
 	}
 	
 	public void DrugName() throws Exception{
-		DrugsSearchPageLocatorsobj.Searchtxtbx.sendKeys("Adderall");
+		DrugsSearchPageLocatorsobj.Searchtxtbx.sendKeys("Metformin");
 		Thread.sleep(5000);
+	}
+	
+		public void sideEffectsDrug() throws Exception{
+		DrugsSearchPageLocatorsobj.SearchSideEffectstxtbx.sendKeys("Adderall");
+		Thread.sleep(3000);
+		
+		}
+		public void SideESearch() throws Exception{
+		DrugsSearchPageLocatorsobj.SideEffectsSearch.click();
+		
+		Thread.sleep(3000);
 	}
 	
 	

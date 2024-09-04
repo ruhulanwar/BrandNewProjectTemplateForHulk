@@ -19,6 +19,11 @@ public class DrugsResultPageActions {
 Thread.sleep(2000);
 	}
 	
+	public void verifyAbdominalPain() throws Exception{
+		Assert.assertEquals("Abdominal Pain", DrugsResultPageLocatorsobj.AbdominalPainInfo.getText());
+	}
+	
+}
 		
 
-	}
+	

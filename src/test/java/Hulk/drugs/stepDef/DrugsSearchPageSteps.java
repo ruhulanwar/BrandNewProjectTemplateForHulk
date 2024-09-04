@@ -11,8 +11,18 @@ public class DrugsSearchPageSteps {
 		 DrugsSearchPageActionsobj.DrugName();
 	}
 
+@When("^enters Adderall in the search box$")
+public void enters_Adderall_in_the_search_box() throws Throwable {
+    DrugsSearchPageActionsobj.sideEffectsDrug();
+}
 	@When("^clicks on the search button$")
 	public void clicks_on_the_search_button() throws Throwable {
 		 DrugsSearchPageActionsobj.ClickSearchBtn();
 	}
-}
+	@When("^clicks on the search$")
+	public void clicks_on_the_search() throws Throwable {
+		 DrugsSearchPageActionsobj.SideESearch();
+	}
+	
+	}
+
