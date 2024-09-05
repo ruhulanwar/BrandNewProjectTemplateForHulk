@@ -19,26 +19,15 @@ public class DrugsResultPageActions {
 		Thread.sleep(2000);
 	}
 	
-	public void verifyAbdominalPain() throws Exception{
-		Assert.assertEquals("Abdominal Pain", DrugsResultPageLocatorsobj.AbdominalPainInfo.getText());
+	public void verifyDrugsAb() throws Exception{
+	Assert.assertEquals("Abacavir", DrugsResultPageLocatorsobj.drugsAb.getText());
+	Thread.sleep(2000);
 	}
 	
-	public void verifyNewDrugsInfo(){
-		Assert.assertEquals("New Drug Approvals", DrugsResultPageLocatorsobj.NewDrugsInfo.getText());
-	}
-	
-	public void verifyTreatmentGuidesInfo() throws Exception{
-		Assert.assertEquals("Cancer", DrugsResultPageLocatorsobj.TreatmentGuideName.getText());
-		Thread.sleep(2000);
-	}
-	
-	public void verifyHealthProfessionalsInfo() throws Exception{
-		Assert.assertEquals("Insulin", DrugsResultPageLocatorsobj.DrugNameHPName.getText());
-		Thread.sleep(2000);
+	public void verifyDrugTylenol() throws Exception{
+	Assert.assertEquals("Tylenol", DrugsResultPageLocatorsobj.drugTylenol.getText());
+	Thread.sleep(2000);
 	}
 	
 	
 }
-		
-
-	

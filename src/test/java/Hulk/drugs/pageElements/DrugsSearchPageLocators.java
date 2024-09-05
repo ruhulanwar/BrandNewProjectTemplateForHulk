@@ -10,17 +10,22 @@ public class DrugsSearchPageLocators {
 	//Search button
 	@FindBy(xpath= "//button[@class='ddc-btn']")
 	public WebElement SearchBtn;
-	@FindBy (xpath = "//input[@ placeholder='Enter a drug name']")
-	public WebElement SearchSideEffectstxtbx;
-	 @FindBy(xpath="(//button[@type='submit'])[2]")
-	 public WebElement SideEffectsSearch;
-	 
-	//ELI: Treatment Guides 
-	@FindBy (xpath="//input[@placeholder='Enter a condition, e.g. acne']")
-	public WebElement SearchTreatmentGuidesTxtbx;
-	
-	//@FindBy (xpath="//input[@placeholder='Enter a drug name']")
-	//public WebElement SearchDrugNameTxtbx;
-	
-	
+	//Alphabet A
+	@FindBy(xpath= "//a[@aria-label='Browse drugs and medications by letter: A']")
+	public WebElement alphabetA;
+	//Letter Ab
+	@FindBy(xpath= "//a[@aria-label='Browse drugs starting with: Ab']")
+	public WebElement letterAb;
+	//Search Textbox
+	@FindBy(xpath= "//input[@placeholder='Enter a search term']")
+	public WebElement srchTxtBx;
+	//Advanced Drop down
+	@FindBy(xpath= "//select[@id='phrase']")
+	public WebElement advnDD;
+	//Clear Selection
+	@FindBy(xpath= "//a[contains(text(),'Clear all selections')]")
+	public WebElement clearSelec;
+	//Advanced Search Button
+	@FindBy(xpath= "//button[contains(text(),'Search')]")
+	public WebElement advnSrchBtn;
 }

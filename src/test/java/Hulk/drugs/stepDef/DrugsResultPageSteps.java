@@ -9,7 +9,16 @@ public class DrugsResultPageSteps {
 	@Then("^the drug information is provided\\.$")
 	public void the_drug_information_is_provided() throws Throwable {
 		DrugsResultPageActionsobj.verifydruginfo();
-	   
+	}
+	
+	@Then("^User should get all drugs starting with Ab as a result$")
+	public void user_should_get_all_drugs_starting_with_Ab_as_a_result() throws Throwable {
+	    DrugsResultPageActionsobj.verifyDrugsAb();
+	}
+	
+	@Then("^User should get all Tylenol related information as a result$")
+	public void user_should_get_all_Tylenol_related_information_as_a_result() throws Throwable {
+	    DrugsResultPageActionsobj.verifyDrugTylenol();
 	}
 	
 	@Then("^user should get all information realted to abdominal pain$")
