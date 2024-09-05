@@ -48,4 +48,10 @@ DrugsHomePageLocatorsobj.AlphabetA.click();
 Thread.sleep(2000);
 }
 
+public void ClickRegister() throws Exception{
+	DrugsHomePageLocatorsobj.Register.click();
+	Thread.sleep(2000);
+}
+
+
 }

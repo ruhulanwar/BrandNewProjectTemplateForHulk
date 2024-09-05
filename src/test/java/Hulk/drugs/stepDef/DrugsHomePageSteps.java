@@ -45,5 +45,9 @@ public class DrugsHomePageSteps {
 	public void user_clicks_on_Alphabet_A_below_the_condition() throws Throwable {
 	 DrugsHomePageActionsobj.ClickAlphabet();
 	}
-
+	@When("^The user clicks on the Register on the top of the page$")
+	public void the_user_clicks_on_the_Register_on_the_top_of_the_page() throws Throwable {
+	 DrugsHomePageActionsobj.ClickRegister();
+	}
+	
 }

@@ -23,6 +23,9 @@ Thread.sleep(2000);
 		Assert.assertEquals("Abdominal Pain", DrugsResultPageLocatorsobj.AbdominalPainInfo.getText());
 	}
 	
+	public void verifyNewDrugsInfo(){
+	Assert.assertEquals("New Drug Approvals", DrugsResultPageLocatorsobj.NewDrugsInfo.getText());
+}
 }
 		
 

@@ -53,7 +53,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Sep 3, 2024 06:39:11 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Sep 4, 2024 09:44:38 PM</span>
 				</a>
 			</li>
 			<li>
@@ -142,10 +142,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>4</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='62.5%'><span class='strong'>5</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>2</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='25%'>2</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='12.5%'>1</span> others
 				</div>
 			</div>
 		</div>
@@ -157,10 +157,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>4</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='62.5%'><span class='strong'>5</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>2</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='25%'>2</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='12.5%'>1</span> others
 				</div>
 			</div>
 		</div>
@@ -172,10 +172,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='86.957%'><span class='strong'>20</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='75%'><span class='strong'>24</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='8.696%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='4.348%'>1</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='6.25%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='18.75%'>6</span> others
 				</div>
 			</div>
 		</div>
@@ -191,31 +191,31 @@
 				
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Contact Us functionality on drugs.com</span>
-						<span class='test-time'>Sep 3, 2024 06:39:11 PM</span>
+						<span class='test-name'>Drug Browse Condition</span>
+						<span class='test-time'>Sep 4, 2024 09:44:38 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 38s+207ms</span>
+	<span class='duration right label'>0h 0m 51s+781ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
-		<span class="desc-text">User can fill out the form through contact us button on the homepage.</span>
+		<span class="desc-text">The user browses  condition</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='3' class='node given pass' status='pass'>
-			
-			<b>Given</b>
-			
-			<span class="bdd-step-name">Given The user is on drugs.com Homepage.</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='4' class='node when pass' status='pass'>
+		<li test-id='3' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
-			<span class="bdd-step-name">When The user clicks on the Contact Us button</span>
+			<span class="bdd-step-name">When User clicks on Browse Conditions on the homepage</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='4' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And User clicks on Alphabet A below the condition</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -223,11 +223,63 @@
 			
 			<b>And</b>
 			
+			<span class="bdd-step-name">And Clicks on Abdominal Pain under Common heading</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='6' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then user should get all information realted to abdominal pain</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>Contact Us functionality on drugs.com</span>
+						<span class='test-time'>Sep 4, 2024 09:45:32 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='scenario node' test-id='8' status='pass'>
+	<span class='duration right label'>0h 0m 40s+423ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">User can fill out the form through contact us button on the homepage.</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='9' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given The user is on drugs.com Homepage.</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='10' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When The user clicks on the Contact Us button</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='11' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
 			<span class="bdd-step-name">And Clicks on the Contact form button</span>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='6' class='node and pass' status='pass'>
+		<li test-id='12' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -235,7 +287,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='7' class='node and pass' status='pass'>
+		<li test-id='13' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -243,7 +295,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='8' class='node and pass' status='pass'>
+		<li test-id='14' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -251,7 +303,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='9' class='node and pass' status='pass'>
+		<li test-id='15' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -265,21 +317,21 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='10'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='16'>
 					<div class='test-heading'>
 						<span class='test-name'>Drug & Medication functionality</span>
-						<span class='test-time'>Sep 3, 2024 06:39:50 PM</span>
+						<span class='test-time'>Sep 4, 2024 09:46:14 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='11' status='pass'>
-	<span class='duration right label'>0h 0m 22s+992ms</span>
+<div class='scenario node' test-id='17' status='pass'>
+	<span class='duration right label'>0h 0m 26s+621ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">The User searches for Metformin information</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='12' class='node when pass' status='pass'>
+		<li test-id='18' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
@@ -287,7 +339,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='13' class='node and pass' status='pass'>
+		<li test-id='19' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -295,7 +347,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='14' class='node and pass' status='pass'>
+		<li test-id='20' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -303,7 +355,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='15' class='node then pass' status='pass'>
+		<li test-id='21' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
@@ -317,34 +369,34 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='16'>
+				<li class='test displayed active has-leaf skip' status='skip' bdd='true' test-id='22'>
 					<div class='test-heading'>
 						<span class='test-name'>New Drugs functionality</span>
-						<span class='test-time'>Sep 3, 2024 06:40:14 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 4, 2024 09:46:42 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='17' status='pass'>
-	<span class='duration right label'>0h 0m 5s+420ms</span>
+<div class='scenario node' test-id='23' status='skip'>
+	<span class='duration right label'>0h 0m 2s+628ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">The User searches for New Drugs</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='18' class='node when pass' status='pass'>
+		<li test-id='24' class='node when skip' status='skip'>
 			
 			<b>When</b>
 			
-			<span class="bdd-step-name">When the user clicks on new drugs</span>
-				<div class='pre'>passed</div>
+			<span class="bdd-step-name">When the user clicks on new drugs on the top of the page</span>
+				<div class='pre'>undefined</div>
 			
 		</li>
-		<li test-id='19' class='node then pass' status='pass'>
+		<li test-id='25' class='node then skip' status='skip'>
 			
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then user should get all new drugs related information</span>
-				<div class='pre'>passed</div>
+				<div class='pre'>undefined</div>
 			
 		</li>
 	</ul>
@@ -353,146 +405,33 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='20'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='26'>
 					<div class='test-heading'>
 						<span class='test-name'>Petstore API Testing</span>
-						<span class='test-time'>Sep 3, 2024 06:40:21 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Sep 4, 2024 09:46:45 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='21' status='fail'>
-	<span class='duration right label'>0h 0m 5s+529ms</span>
+<div class='scenario node' test-id='27' status='pass'>
+	<span class='duration right label'>0h 0m 9s+307ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Pet CRUD API</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='22' class='node given fail' status='fail'>
+		<li test-id='28' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
 			<span class="bdd-step-name">Given Create pet</span>
-				<div class='pre'><textarea>io.restassured.module.jsv.JsonSchemaValidationException: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitHub\BrandNewProjectTemplateForHulk\src\test\resource\ApiResponseSchemas\CreatePetResponse.json (The system cannot find the file specified)
-	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:286)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:157)
-	at hulk.api.restassured.PetstoreRestAssuredActions.createPet(PetstoreRestAssuredActions.java:29)
-	at hulk.drugs.stepDef.ApiPetStoreStepDef.create_pet(ApiPetStoreStepDef.java:10)
-	at ?.Given Create pet(PetStoreApi.feature:6)
-Caused by: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitHub\BrandNewProjectTemplateForHulk\src\test\resource\ApiResponseSchemas\CreatePetResponse.json (The system cannot find the file specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at com.github.fge.jackson.JsonLoader.fromFile(JsonLoader.java:160)
-	at io.restassured.module.jsv.JsonSchemaValidator$3.createSchemaInstance(JsonSchemaValidator.java:155)
-	at io.restassured.module.jsv.JsonSchemaValidator$3.createSchemaInstance(JsonSchemaValidator.java:152)
-	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:284)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:157)
-	at hulk.api.restassured.PetstoreRestAssuredActions.createPet(PetstoreRestAssuredActions.java:29)
-	at hulk.drugs.stepDef.ApiPetStoreStepDef.create_pet(ApiPetStoreStepDef.java:10)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:37)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-	at cucumber.runtime.Utils.invoke(Utils.java:31)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-</textarea></div>
+				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='23' class='node and skip' status='skip'>
+		<li test-id='29' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
 			<span class="bdd-step-name">And Get pet</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-	</ul>
-</div>
-					</div>
-				</li>
-				
-				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='24'>
-					<div class='test-heading'>
-						<span class='test-name'>Petstore  API Testing</span>
-						<span class='test-time'>Sep 3, 2024 06:40:27 PM</span>
-						<span class='test-status right pass'>pass</span>
-					</div>
-					<div class='test-content hide'>
-<div class='scenario node' test-id='25' status='pass'>
-	<span class='duration right label'>0h 0m 3s+766ms</span>
-	<div class='desc'>
-		<b>Scenario</b>
-		<span class="desc-text">Pet CRUD API</span>
-	</div>
-	<ul class='steps'>
-		<li test-id='26' class='node given pass' status='pass'>
-			
-			<b>Given</b>
-			
-			<span class="bdd-step-name">Given Create user</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='27' class='node and pass' status='pass'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And Get user</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='28' class='node when pass' status='pass'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When Update user</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='29' class='node then pass' status='pass'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then Delete user</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -504,19 +443,237 @@ Caused by: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitH
 				
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='30'>
 					<div class='test-heading'>
-						<span class='test-name'>Side Effects functionality</span>
-						<span class='test-time'>Sep 3, 2024 06:40:32 PM</span>
+						<span class='test-name'>Petstore  API Testing</span>
+						<span class='test-time'>Sep 4, 2024 09:46:55 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='31' status='fail'>
-	<span class='duration right label'>0h 0m 47s+274ms</span>
+	<span class='duration right label'>0h 0m 3s+294ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
-		<span class="desc-text">The User searches Side Effects for Adderall</span>
+		<span class="desc-text">Pet CRUD API</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='32' class='node when pass' status='pass'>
+		<li test-id='32' class='node given fail' status='fail'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given Create user</span>
+				<div class='pre'><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+warning: the following keywords are unknown and will be ignored: [$id, examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":""}
+    domain: "syntax"
+    ignored: ["$id","examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/photoUrls"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/photoUrls/items"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/status"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+error: object has missing required properties (["category","id","name","photoUrls","status","tags"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["category","id","name","photoUrls","status","tags"]
+    missing: ["category","id","name","photoUrls","status","tags"]
+
+  Actual: {"code":200,"type":"unknown","message":"17"}
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:94)
+	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:244)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:262)
+	at upskill.api.restassured.PetstoreUserRestAssuredActions.createUser(PetstoreUserRestAssuredActions.java:30)
+	at hulk.drugs.stepDef.PetstoreUserApiSteps.create_user(PetstoreUserApiSteps.java:14)
+	at ?.Given Create user(PetstoreUserApiTesting.feature:6)
+</pre></div>
+			
+		</li>
+		<li test-id='33' class='node and skip' status='skip'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And Get user</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='34' class='node when skip' status='skip'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When Update user</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+		<li test-id='35' class='node then skip' status='skip'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then Delete user</span>
+				<div class='pre'>skipped</div>
+			
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='36'>
+					<div class='test-heading'>
+						<span class='test-name'>User Registration</span>
+						<span class='test-time'>Sep 4, 2024 09:47:00 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='scenario node' test-id='37' status='pass'>
+	<span class='duration right label'>0h 0m 10s+113ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">Successful registration with valid details</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='38' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When The user clicks on the Register on the top of the page</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='39' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And Enters the email address on the textbox</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='40' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And Clicks on Continue with email button</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='41' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And Clicks on I Do not consent button</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='42' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then Health Privacy Consent and go back button should be displayed</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='43'>
+					<div class='test-heading'>
+						<span class='test-name'>Side Effects functionality</span>
+						<span class='test-time'>Sep 4, 2024 09:47:11 PM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='scenario node' test-id='44' status='fail'>
+	<span class='duration right label'>0h 5m 56s+892ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">User searches Side Effects for Adderall</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='45' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
@@ -524,36 +681,27 @@ Caused by: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitH
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='33' class='node and pass' status='pass'>
+		<li test-id='46' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And enters the drug name</span>
+			<span class="bdd-step-name">And enters Adderall in the search box</span>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='34' class='node and pass' status='pass'>
+		<li test-id='47' class='node and fail' status='fail'>
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And clicks on the search button</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='35' class='node then fail' status='fail'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then the Side Effects is provided.</span>
-				<div class='pre'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[text()='Adderall'])"}
+			<span class="bdd-step-name">And clicks on the search</span>
+				<div class='pre'><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
   (Session info: chrome=128.0.6613.119)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-S20TJ16', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\eguru\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa7f5ae019ce75ca1badf21f783f3587
-*** Element info: {Using=xpath, value=(//*[text()='Adderall'])}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\eguru\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bff68a6bd0f3fd57426e02a25bb6d97
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -564,17 +712,26 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy18.getText(Unknown Source)
-	at hulk.drugs.pageAction.SideEffectsResultPageActions.verifySideEffects(SideEffectsResultPageActions.java:20)
-	at hulk.drugs.stepDef.SideEffectsResultPageSteps.the_Side_Effects_is_provided(SideEffectsResultPageSteps.java:13)
-	at ?.Then the Side Effects is provided.(SideEffects.feature:11)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at hulk.drugs.pageAction.DrugsSearchPageActions.SideESearch(DrugsSearchPageActions.java:28)
+	at hulk.drugs.stepDef.DrugsSearchPageSteps.clicks_on_the_search(DrugsSearchPageSteps.java:24)
+	at ?.And clicks on the search(SideEffects.feature:10)
 </pre></div>
+			
+		</li>
+		<li test-id='48' class='node then skip' status='skip'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then the  Adderall Side Effects is provided</span>
+				<div class='pre'>skipped</div>
 			
 		</li>
 	</ul>
@@ -635,15 +792,16 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
 					<div class='category-heading'>
 						<span class='category-name'>@regression</span>
 						<span class='category-status right'>
-							<span class='label pass'>4</span>
+							<span class='label pass'>5</span>
 							<span class='label fail'>2</span>
+							<span class='label others'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 4</span>
+							<span class='label green accent-4 white-text'>Passed: 5</span>
 							<span class='label red lighten-1 white-text'>Failed: 2</span>
-							
+							<span class='label yellow darken-2 white-text'>Others: 1</span>
 						</div>
 					
 						<div class='category-tests'>
@@ -657,33 +815,43 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 3, 2024 06:39:11 PM</td>
-										<td class='linked' test-id='1'>Contact Us functionality on drugs.com</td>
+										<td>Sep 4, 2024 09:44:38 PM</td>
+										<td class='linked' test-id='1'>Drug Browse Condition</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 3, 2024 06:39:50 PM</td>
-										<td class='linked' test-id='10'>Drug & Medication functionality</td>
+										<td>Sep 4, 2024 09:45:32 PM</td>
+										<td class='linked' test-id='7'>Contact Us functionality on drugs.com</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 3, 2024 06:40:14 PM</td>
-										<td class='linked' test-id='16'>New Drugs functionality</td>
+										<td>Sep 4, 2024 09:46:14 PM</td>
+										<td class='linked' test-id='16'>Drug & Medication functionality</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 3, 2024 06:40:21 PM</td>
-										<td class='linked' test-id='20'>Petstore API Testing</td>
+										<td>Sep 4, 2024 09:46:42 PM</td>
+										<td class='linked' test-id='22'>New Drugs functionality</td>
+										<td><span class='test-status skip'>skip</span></td>
+									</tr>
+									<tr>
+										<td>Sep 4, 2024 09:46:45 PM</td>
+										<td class='linked' test-id='26'>Petstore API Testing</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Sep 4, 2024 09:46:55 PM</td>
+										<td class='linked' test-id='30'>Petstore  API Testing</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 									<tr>
-										<td>Sep 3, 2024 06:40:27 PM</td>
-										<td class='linked' test-id='24'>Petstore  API Testing</td>
+										<td>Sep 4, 2024 09:47:00 PM</td>
+										<td class='linked' test-id='36'>User Registration</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Sep 3, 2024 06:40:32 PM</td>
-										<td class='linked' test-id='30'>Side Effects functionality</td>
+										<td>Sep 4, 2024 09:47:11 PM</td>
+										<td class='linked' test-id='43'>Side Effects functionality</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
@@ -695,13 +863,12 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
 					<div class='category-heading'>
 						<span class='category-name'>@api</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
 							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
+							
 							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
@@ -717,14 +884,9 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 3, 2024 06:40:21 PM</td>
-										<td class='linked' test-id='20'>Petstore API Testing</td>
+										<td>Sep 4, 2024 09:46:55 PM</td>
+										<td class='linked' test-id='30'>Petstore  API Testing</td>
 										<td><span class='test-status fail'>fail</span></td>
-									</tr>
-									<tr>
-										<td>Sep 3, 2024 06:40:27 PM</td>
-										<td class='linked' test-id='24'>Petstore  API Testing</td>
-										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -770,7 +932,7 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>io.restassured.module.jsv.JsonSchemaValidationException</span>
+                                <span class='exception-name'>java.lang.AssertionError</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -785,70 +947,115 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Sep 3, 2024 06:40:23 PM</td>
-                                                        <td class='linked' test-id='22'>Petstore API Testing.Pet CRUD API.Given Create pet</td>
-                                                        <td><pre><textarea>io.restassured.module.jsv.JsonSchemaValidationException: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitHub\BrandNewProjectTemplateForHulk\src\test\resource\ApiResponseSchemas\CreatePetResponse.json (The system cannot find the file specified)
-	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:286)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:157)
-	at hulk.api.restassured.PetstoreRestAssuredActions.createPet(PetstoreRestAssuredActions.java:29)
-	at hulk.drugs.stepDef.ApiPetStoreStepDef.create_pet(ApiPetStoreStepDef.java:10)
-	at ?.Given Create pet(PetStoreApi.feature:6)
-Caused by: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitHub\BrandNewProjectTemplateForHulk\src\test\resource\ApiResponseSchemas\CreatePetResponse.json (The system cannot find the file specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at com.github.fge.jackson.JsonLoader.fromFile(JsonLoader.java:160)
-	at io.restassured.module.jsv.JsonSchemaValidator$3.createSchemaInstance(JsonSchemaValidator.java:155)
-	at io.restassured.module.jsv.JsonSchemaValidator$3.createSchemaInstance(JsonSchemaValidator.java:152)
-	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:284)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:157)
-	at hulk.api.restassured.PetstoreRestAssuredActions.createPet(PetstoreRestAssuredActions.java:29)
-	at hulk.drugs.stepDef.ApiPetStoreStepDef.create_pet(ApiPetStoreStepDef.java:10)
+                                                        <td>Sep 4, 2024 09:46:58 PM</td>
+                                                        <td class='linked' test-id='32'>Petstore  API Testing.Pet CRUD API.Given Create user</td>
+                                                        <td><pre><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+warning: the following keywords are unknown and will be ignored: [$id, examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":""}
+    domain: "syntax"
+    ignored: ["$id","examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/photoUrls"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/photoUrls/items"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/status"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+error: object has missing required properties (["category","id","name","photoUrls","status","tags"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["category","id","name","photoUrls","status","tags"]
+    missing: ["category","id","name","photoUrls","status","tags"]
+
+  Actual: {"code":200,"type":"unknown","message":"17"}
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:37)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-	at cucumber.runtime.Utils.invoke(Utils.java:31)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-</textarea></pre></td>
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:94)
+	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:244)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:262)
+	at upskill.api.restassured.PetstoreUserRestAssuredActions.createUser(PetstoreUserRestAssuredActions.java:30)
+	at hulk.drugs.stepDef.PetstoreUserApiSteps.create_user(PetstoreUserApiSteps.java:14)
+	at ?.Given Create user(PetstoreUserApiTesting.feature:6)
+</pre></pre></td>
                                                     </tr>
                                         </tbody>
                                     </table>
@@ -857,7 +1064,7 @@ Caused by: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitH
                         </li>
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
+                                <span class='exception-name'>org.openqa.selenium.WebDriverException</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -872,17 +1079,16 @@ Caused by: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitH
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Sep 3, 2024 06:41:19 PM</td>
-                                                        <td class='linked' test-id='35'>Side Effects functionality.The User searches Side Effects for Adderall.Then the Side Effects is provided.</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[text()='Adderall'])"}
+                                                        <td>Sep 4, 2024 09:47:22 PM</td>
+                                                        <td class='linked' test-id='47'>Side Effects functionality.User searches Side Effects for Adderall.And clicks on the search</td>
+                                                        <td><pre><pre>org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
   (Session info: chrome=128.0.6613.119)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-S20TJ16', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\eguru\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa7f5ae019ce75ca1badf21f783f3587
-*** Element info: {Using=xpath, value=(//*[text()='Adderall'])}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\eguru\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bff68a6bd0f3fd57426e02a25bb6d97
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -893,16 +1099,17 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy18.getText(Unknown Source)
-	at hulk.drugs.pageAction.SideEffectsResultPageActions.verifySideEffects(SideEffectsResultPageActions.java:20)
-	at hulk.drugs.stepDef.SideEffectsResultPageSteps.the_Side_Effects_is_provided(SideEffectsResultPageSteps.java:13)
-	at ?.Then the Side Effects is provided.(SideEffects.feature:11)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at hulk.drugs.pageAction.DrugsSearchPageActions.SideESearch(DrugsSearchPageActions.java:28)
+	at hulk.drugs.stepDef.DrugsSearchPageSteps.clicks_on_the_search(DrugsSearchPageSteps.java:24)
+	at ?.And clicks on the search(SideEffects.feature:10)
 </pre></pre></td>
                                                     </tr>
                                         </tbody>
@@ -929,37 +1136,37 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Features
-					<div class='panel-lead'>6</div>
+					<div class='panel-lead'>8</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>6</div>
+					<div class='panel-lead'>8</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>23</div>
+					<div class='panel-lead'>32</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 3, 2024 06:39:11 PM</div>
+					<div class='panel-lead'>Sep 4, 2024 09:44:38 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 3, 2024 06:41:21 PM</div>
+			 		<div class='panel-lead'>Sep 4, 2024 09:53:08 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 2m 9s+741ms</div>
+					<div class='panel-lead'>0h 8m 29s+592ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -976,20 +1183,20 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
 						</tr>
 						<tr>
 							<td>@regression</td>
-							<td>4</td>
+							<td>5</td>
 							<td>2</td>
-							<td>0</td>
+							<td>1</td>
 							<td>
-									66.667%
+									62.5%
 							</td>
 						</tr>
 						<tr>
 							<td>@api</td>
-							<td>1</td>
+							<td>0</td>
 							<td>1</td>
 							<td>0</td>
 							<td>
-									50%
+									0%
 							</td>
 						</tr>
 					</table>
@@ -1005,31 +1212,31 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
 
 		<script>
 			var statusGroup = {
-				passParent: 4,
+				passParent: 5,
 				failParent: 2,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 0,
-				exceptionsParent: 2,
+				skipParent: 1,
+				exceptionsParent: 3,
 				
-				passChild: 4,
+				passChild: 5,
 				failChild: 2,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
-				skipChild: 0,
+				skipChild: 1,
 				infoChild: 0,
-				exceptionsChild: 2,
+				exceptionsChild: 3,
 				
-				passGrandChild: 20,
+				passGrandChild: 24,
 				failGrandChild: 2,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 1,
+				skipGrandChild: 6,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 3,
+				exceptionsGrandChild: 8,
 			};
 		</script>
 		

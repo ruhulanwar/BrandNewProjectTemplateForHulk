@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="6" passed="4">
+<testng-results skipped="0" failed="2" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression" duration-ms="130478" started-at="2024-09-03T22:39:11Z" finished-at="2024-09-03T22:41:21Z">
+  <suite name="Regression" duration-ms="510462" started-at="2024-09-05T01:44:38Z" finished-at="2024-09-05T01:53:08Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="drugs" duration-ms="130478" started-at="2024-09-03T22:39:11Z" finished-at="2024-09-03T22:41:21Z">
+    <test name="drugs" duration-ms="510462" started-at="2024-09-05T01:44:38Z" finished-at="2024-09-05T01:53:08Z">
       <class name="hulk.runners.RunnerClass">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="setUpClass" is-config="true" duration-ms="154" started-at="2024-09-03T18:39:11Z" finished-at="2024-09-03T18:39:11Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="setUpClass" is-config="true" duration-ms="235" started-at="2024-09-04T21:44:38Z" finished-at="2024-09-04T21:44:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="39253" started-at="2024-09-03T18:39:11Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-03T18:39:50Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="54164" started-at="2024-09-04T21:44:38Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-04T21:45:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Drug Browse Condition]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="41355" started-at="2024-09-04T21:45:32Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-04T21:46:14Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="24052" started-at="2024-09-03T18:39:50Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-03T18:40:14Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="27986" started-at="2024-09-04T21:46:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-04T21:46:42Z">
           <params>
             <param index="0">
               <value>
@@ -36,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="6303" started-at="2024-09-03T18:40:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-03T18:40:21Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="3440" started-at="2024-09-04T21:46:42Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-04T21:46:45Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="6545" started-at="2024-09-03T18:40:21Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-03T18:40:27Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="10129" started-at="2024-09-04T21:46:45Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-04T21:46:55Z">
           <params>
             <param index="0">
               <value>
@@ -55,12 +66,179 @@
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="4627" started-at="2024-09-04T21:46:55Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-04T21:47:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Petstore  API Testing]]>
+              </value>
+            </param>
+          </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[io.restassured.module.jsv.JsonSchemaValidationException: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitHub\BrandNewProjectTemplateForHulk\src\test\resource\ApiResponseSchemas\CreatePetResponse.json (The system cannot find the file specified)]]>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+warning: the following keywords are unknown and will be ignored: [$id, examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":""}
+    domain: "syntax"
+    ignored: ["$id","examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/photoUrls"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/photoUrls/items"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/status"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+error: object has missing required properties (["category","id","name","photoUrls","status","tags"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["category","id","name","photoUrls","status","tags"]
+    missing: ["category","id","name","photoUrls","status","tags"]
+
+  Actual: {"code":200,"type":"unknown","message":"17"}
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: io.restassured.module.jsv.JsonSchemaValidationException: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitHub\BrandNewProjectTemplateForHulk\src\test\resource\ApiResponseSchemas\CreatePetResponse.json (The system cannot find the file specified)
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+warning: the following keywords are unknown and will be ignored: [$id, examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":""}
+    domain: "syntax"
+    ignored: ["$id","examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/photoUrls"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/photoUrls/items"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/status"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+error: object has missing required properties (["category","id","name","photoUrls","status","tags"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["category","id","name","photoUrls","status","tags"]
+    missing: ["category","id","name","photoUrls","status","tags"]
+
+  Actual: {"code":200,"type":"unknown","message":"17"}
+
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -91,85 +269,130 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-Caused by: io.restassured.module.jsv.JsonSchemaValidationException: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitHub\BrandNewProjectTemplateForHulk\src\test\resource\ApiResponseSchemas\CreatePetResponse.json (The system cannot find the file specified)
-	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:286)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:157)
-	at hulk.api.restassured.PetstoreRestAssuredActions.createPet(PetstoreRestAssuredActions.java:29)
-	at hulk.drugs.stepDef.ApiPetStoreStepDef.create_pet(ApiPetStoreStepDef.java:10)
-	at ✽.Given Create pet(PetStoreApi.feature:6)
-Caused by: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitHub\BrandNewProjectTemplateForHulk\src\test\resource\ApiResponseSchemas\CreatePetResponse.json (The system cannot find the file specified)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(Unknown Source)
-	at java.io.FileInputStream.<init>(Unknown Source)
-	at com.github.fge.jackson.JsonLoader.fromFile(JsonLoader.java:160)
-	at io.restassured.module.jsv.JsonSchemaValidator$3.createSchemaInstance(JsonSchemaValidator.java:155)
-	at io.restassured.module.jsv.JsonSchemaValidator$3.createSchemaInstance(JsonSchemaValidator.java:152)
-	at io.restassured.module.jsv.JsonSchemaValidator$JsonSchemaValidatorFactory.create(JsonSchemaValidator.java:284)
-	at io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema(JsonSchemaValidator.java:157)
-	at hulk.api.restassured.PetstoreRestAssuredActions.createPet(PetstoreRestAssuredActions.java:29)
-	at hulk.drugs.stepDef.ApiPetStoreStepDef.create_pet(ApiPetStoreStepDef.java:10)
+Caused by: java.lang.AssertionError: 1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+warning: the following keywords are unknown and will be ignored: [$id, examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":""}
+    domain: "syntax"
+    ignored: ["$id","examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/category/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/photoUrls"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/photoUrls/items"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/status"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items/properties/id"}
+    domain: "syntax"
+    ignored: ["examples"]
+warning: the following keywords are unknown and will be ignored: [examples]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/properties/tags/items/properties/name"}
+    domain: "syntax"
+    ignored: ["examples"]
+error: object has missing required properties (["category","id","name","photoUrls","status","tags"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "required"
+    required: ["category","id","name","photoUrls","status","tags"]
+    missing: ["category","id","name","photoUrls","status","tags"]
+
+  Actual: {"code":200,"type":"unknown","message":"17"}
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at cucumber.runtime.Utils$1.call(Utils.java:37)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-	at cucumber.runtime.Utils.invoke(Utils.java:31)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:94)
+	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:244)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:262)
+	at upskill.api.restassured.PetstoreUserRestAssuredActions.createUser(PetstoreUserRestAssuredActions.java:30)
+	at hulk.drugs.stepDef.PetstoreUserApiSteps.create_user(PetstoreUserApiSteps.java:14)
+	at ✽.Given Create user(PetstoreUserApiTesting.feature:6)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="4593" started-at="2024-09-03T18:40:27Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-03T18:40:32Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="11009" started-at="2024-09-04T21:47:00Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-04T21:47:11Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Petstore  API Testing]]>
+                <![CDATA[User Registration]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="48989" started-at="2024-09-03T18:40:32Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-03T18:41:21Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="356909" started-at="2024-09-04T21:47:11Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-04T21:53:08Z">
           <params>
             <param index="0">
               <value>
@@ -179,26 +402,24 @@ Caused by: java.io.FileNotFoundException: C:\Users\eguru\OneDrive\Documents\GitH
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[text()='Adderall'])"}
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
   (Session info: chrome=128.0.6613.119)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-S20TJ16', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\eguru\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa7f5ae019ce75ca1badf21f783f3587
-*** Element info: {Using=xpath, value=(//*[text()='Adderall'])}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\eguru\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bff68a6bd0f3fd57426e02a25bb6d97]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[text()='Adderall'])"}
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
   (Session info: chrome=128.0.6613.119)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-S20TJ16', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\eguru\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa7f5ae019ce75ca1badf21f783f3587
-*** Element info: {Using=xpath, value=(//*[text()='Adderall'])}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\eguru\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bff68a6bd0f3fd57426e02a25bb6d97
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -229,15 +450,14 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[text()='Adderall'])"}
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
   (Session info: chrome=128.0.6613.119)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'DESKTOP-S20TJ16', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\eguru\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa7f5ae019ce75ca1badf21f783f3587
-*** Element info: {Using=xpath, value=(//*[text()='Adderall'])}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\eguru\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bff68a6bd0f3fd57426e02a25bb6d97
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -248,27 +468,28 @@ Session ID: aa7f5ae019ce75ca1badf21f783f3587
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy18.getText(Unknown Source)
-	at hulk.drugs.pageAction.SideEffectsResultPageActions.verifySideEffects(SideEffectsResultPageActions.java:20)
-	at hulk.drugs.stepDef.SideEffectsResultPageSteps.the_Side_Effects_is_provided(SideEffectsResultPageSteps.java:13)
-	at ✽.Then the Side Effects is provided.(SideEffects.feature:11)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy18.click(Unknown Source)
+	at hulk.drugs.pageAction.DrugsSearchPageActions.SideESearch(DrugsSearchPageActions.java:28)
+	at hulk.drugs.stepDef.DrugsSearchPageSteps.clicks_on_the_search(DrugsSearchPageSteps.java:24)
+	at ✽.And clicks on the search(SideEffects.feature:10)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="writeExtentReport" is-config="true" duration-ms="48" started-at="2024-09-03T18:41:21Z" finished-at="2024-09-03T18:41:21Z">
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="writeExtentReport" is-config="true" duration-ms="62" started-at="2024-09-04T21:53:08Z" finished-at="2024-09-04T21:53:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeExtentReport -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="tearDownClass" is-config="true" duration-ms="478" started-at="2024-09-03T18:41:21Z" finished-at="2024-09-03T18:41:21Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="tearDownClass" is-config="true" duration-ms="438" started-at="2024-09-04T21:53:08Z" finished-at="2024-09-04T21:53:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

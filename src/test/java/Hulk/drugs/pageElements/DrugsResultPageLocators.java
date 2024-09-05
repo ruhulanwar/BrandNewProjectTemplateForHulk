@@ -10,4 +10,7 @@ public class DrugsResultPageLocators {
 
 	@FindBy (xpath="(//*[text()='Abdominal Pain'])[2]")
 	public WebElement AbdominalPainInfo;
+	
+	@FindBy (xpath=" //*[text()='New Drug Approvals']")
+	public WebElement NewDrugsInfo;
 }

@@ -24,4 +24,7 @@ public WebElement BrowseConditions;
 
 @FindBy (xpath="//a[@aria-label='Browse conditions and diseases by letter: a']")
 public WebElement AlphabetA;
+
+@FindBy (xpath= "//*[text()='Register']")
+public WebElement Register;
 }
