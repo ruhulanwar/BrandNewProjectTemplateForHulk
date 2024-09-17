@@ -5,143 +5,39 @@
     "default": {},
     "title": "Root Schema",
     "required": [
-        "id",
-        "category",
-        "name",
-        "photoUrls",
-        "tags",
-        "status"
+        "code",
+        "type",
+        "message"
     ],
     "properties": {
-        "id": {
+        "code": {
             "type": "integer",
             "default": 0,
-            "title": "The id Schema",
+            "title": "The code Schema",
             "examples": [
-                100
+                200
             ]
         },
-        "category": {
-            "type": "object",
-            "default": {},
-            "title": "The category Schema",
-            "required": [
-                "id",
-                "name"
-            ],
-            "properties": {
-                "id": {
-                    "type": "integer",
-                    "default": 0,
-                    "title": "The id Schema",
-                    "examples": [
-                        100
-                    ]
-                },
-                "name": {
-                    "type": "string",
-                    "default": "",
-                    "title": "The name Schema",
-                    "examples": [
-                        "Cat"
-                    ]
-                }
-            },
-            "examples": [{
-                "id": 100,
-                "name": "Cat"
-            }]
-        },
-        "name": {
+        "type": {
             "type": "string",
             "default": "",
-            "title": "The name Schema",
+            "title": "The type Schema",
             "examples": [
-                "Julie"
+                "unknown"
             ]
         },
-        "photoUrls": {
-            "type": "array",
-            "default": [],
-            "title": "The photoUrls Schema",
-            "items": {
-                "type": "string",
-                "default": "",
-                "title": "A Schema",
-                "examples": [
-                    "string"
-                ]
-            },
-            "examples": [
-                [
-                    "string"]
-            ]
-        },
-        "tags": {
-            "type": "array",
-            "default": [],
-            "title": "The tags Schema",
-            "items": {
-                "type": "object",
-                "default": {},
-                "title": "A Schema",
-                "required": [
-                    "id",
-                    "name"
-                ],
-                "properties": {
-                    "id": {
-                        "type": "integer",
-                        "default": 0,
-                        "title": "The id Schema",
-                        "examples": [
-                            0
-                        ]
-                    },
-                    "name": {
-                        "type": "string",
-                        "default": "",
-                        "title": "The name Schema",
-                        "examples": [
-                            "string"
-                        ]
-                    }
-                },
-                "examples": [{
-                    "id": 0,
-                    "name": "string"
-                }]
-            },
-            "examples": [
-                [{
-                    "id": 0,
-                    "name": "string"
-                }]
-            ]
-        },
-        "status": {
+        "message": {
             "type": "string",
             "default": "",
-            "title": "The status Schema",
+            "title": "The message Schema",
             "examples": [
-                "available"
+                "17"
             ]
         }
     },
     "examples": [{
-        "id": 100,
-        "category": {
-            "id": 100,
-            "name": "Cat"
-        },
-        "name": "Julie",
-        "photoUrls": [
-            "string"
-        ],
-        "tags": [{
-            "id": 0,
-            "name": "string"
-        }],
-        "status": "available"
+        "code": 200,
+        "type": "unknown",
+        "message": "17"
     }]
 }

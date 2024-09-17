@@ -20,7 +20,7 @@
             "default": 0,
             "title": "The id Schema",
             "examples": [
-                17
+                100
             ]
         },
         "username": {
@@ -28,7 +28,7 @@
             "default": "",
             "title": "The username Schema",
             "examples": [
-                "Shajias"
+                "ShajiaS"
             ]
         },
         "firstName": {
@@ -52,7 +52,7 @@
             "default": "",
             "title": "The email Schema",
             "examples": [
-                "shajia.shamas@gmail.com"
+                "shajias@gmail.com"
             ]
         },
         "password": {
@@ -60,7 +60,7 @@
             "default": "",
             "title": "The password Schema",
             "examples": [
-                "Upskill32"
+                "upskill123"
             ]
         },
         "phone": {
@@ -68,7 +68,7 @@
             "default": "",
             "title": "The phone Schema",
             "examples": [
-                "4077781274"
+                "0123456"
             ]
         },
         "userStatus": {
@@ -76,18 +76,18 @@
             "default": 0,
             "title": "The userStatus Schema",
             "examples": [
-                1
+                0
             ]
         }
     },
     "examples": [{
-        "id": 17,
-        "username": "Shajias",
+        "id": 100,
+        "username": "ShajiaS",
         "firstName": "Shajia",
         "lastName": "Shamas",
-        "email": "shajia.shamas@gmail.com",
-        "password": "Upskill32",
-        "phone": "4077781274",
-        "userStatus": 1
+        "email": "shajias@gmail.com",
+        "password": "upskill123",
+        "phone": "0123456",
+        "userStatus": 0
     }]
 }

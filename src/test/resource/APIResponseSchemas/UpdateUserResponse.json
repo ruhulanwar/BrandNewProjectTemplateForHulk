@@ -31,13 +31,13 @@
             "default": "",
             "title": "The message Schema",
             "examples": [
-                "17"
+                "100"
             ]
         }
     },
     "examples": [{
         "code": 200,
         "type": "unknown",
-        "message": "17"
+        "message": "100"
     }]
 }
