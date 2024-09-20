@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression" duration-ms="141162" started-at="2024-09-05T15:07:01Z" finished-at="2024-09-05T15:09:22Z">
+  <suite name="Regression" duration-ms="128246" started-at="2024-09-19T17:03:18Z" finished-at="2024-09-19T17:05:26Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="drugs" duration-ms="141162" started-at="2024-09-05T15:07:01Z" finished-at="2024-09-05T15:09:22Z">
+    <test name="drugs" duration-ms="128246" started-at="2024-09-19T17:03:18Z" finished-at="2024-09-19T17:05:26Z">
       <class name="hulk.runners.RunnerClass">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="setUpClass" is-config="true" duration-ms="173" started-at="2024-09-05T11:07:01Z" finished-at="2024-09-05T11:07:01Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="setUpClass" is-config="true" duration-ms="142" started-at="2024-09-19T13:03:18Z" finished-at="2024-09-19T13:03:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="11892" started-at="2024-09-05T11:07:01Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-05T11:07:13Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="13187" started-at="2024-09-19T13:03:18Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-19T13:03:31Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="38207" started-at="2024-09-05T11:07:13Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-05T11:07:51Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="38249" started-at="2024-09-19T13:03:31Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-19T13:04:10Z">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="20994" started-at="2024-09-05T11:07:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-05T11:08:12Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="33130" started-at="2024-09-19T13:04:10Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-19T13:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="5713" started-at="2024-09-05T11:08:12Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-05T11:08:18Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="5989" started-at="2024-09-19T13:04:43Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-19T13:04:49Z">
           <params>
             <param index="0">
               <value>
@@ -58,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="6944" started-at="2024-09-05T11:08:18Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-05T11:08:25Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="5853" started-at="2024-09-19T13:04:49Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-19T13:04:55Z">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="3805" started-at="2024-09-05T11:08:25Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-05T11:08:28Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="3720" started-at="2024-09-19T13:04:55Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-19T13:04:58Z">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="10048" started-at="2024-09-05T11:08:28Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-05T11:08:38Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="10193" started-at="2024-09-19T13:04:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-19T13:05:09Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="43054" started-at="2024-09-05T11:08:38Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-05T11:09:22Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="feature" duration-ms="17412" started-at="2024-09-19T13:05:09Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2024-09-19T13:05:26Z">
           <params>
             <param index="0">
               <value>
@@ -102,11 +102,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="writeExtentReport" is-config="true" duration-ms="31" started-at="2024-09-05T11:09:22Z" finished-at="2024-09-05T11:09:22Z">
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="writeExtentReport" is-config="true" duration-ms="16" started-at="2024-09-19T13:05:26Z" finished-at="2024-09-19T13:05:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeExtentReport -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="tearDownClass" is-config="true" duration-ms="236" started-at="2024-09-05T11:09:22Z" finished-at="2024-09-05T11:09:22Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:hulk.runners.RunnerClass@735b5592]" name="tearDownClass" is-config="true" duration-ms="307" started-at="2024-09-19T13:05:26Z" finished-at="2024-09-19T13:05:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

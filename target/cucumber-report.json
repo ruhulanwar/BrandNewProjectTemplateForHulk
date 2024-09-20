@@ -1,0 +1,818 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Given: The user is on drugs.com homepage.",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3920154500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "The user browses  condition",
+        "description": "",
+        "id": "drug-browse-condition;the-user-browses--condition",
+        "after": [
+          {
+            "result": {
+              "duration": 826491800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2373556100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Browse Conditions on the homepage",
+            "match": {
+              "location": "DrugsHomePageSteps.user_clicks_on_Browse_Conditions_on_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2914407900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Alphabet A below the condition",
+            "match": {
+              "location": "DrugsHomePageSteps.user_clicks_on_Alphabet_A_below_the_condition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2928623500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clicks on Abdominal Pain under Common heading",
+            "match": {
+              "location": "ConditionPageStepsDef.clicks_on_Abdominal_Pain_under_Common_heading()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48464400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should get all information realted to abdominal pain",
+            "match": {
+              "location": "DrugsResultPageSteps.user_should_get_all_information_realted_to_abdominal_pain()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Drug Browse Condition",
+    "description": "",
+    "id": "drug-browse-condition",
+    "keyword": "Feature",
+    "uri": "BrowseConditionByNur.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 597300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on drugs.com Homepage.",
+            "match": {
+              "location": "DrugsHomePageSteps.the_user_is_on_drugs_com_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2367189900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User can fill out the form through contact us button on the homepage.",
+        "description": "",
+        "id": "contact-us-functionality-on-drugs.com;user-can-fill-out-the-form-through-contact-us-button-on-the-homepage.",
+        "after": [
+          {
+            "result": {
+              "duration": 955531800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5923799000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user clicks on the Contact Us button",
+            "match": {
+              "location": "DrugsHomePageSteps.the_user_clicks_on_the_Contact_Us_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10025708800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clicks on the Contact form button",
+            "match": {
+              "location": "DrugsContactPageSteps.clicks_on_the_Contact_form_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3127677400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Selects the app feedback/suggestion from the drop down.",
+            "match": {
+              "location": "DrugsFormPageSteps.selects_the_app_feedback_suggestion_from_the_drop_down()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9599325500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Fills out the Name,Email address and Message",
+            "match": {
+              "location": "DrugsFormPageSteps.fills_out_the_Name_Email_address_and_Message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3091975600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Selects the checkbox to accept the policy",
+            "match": {
+              "location": "DrugsFormPageSteps.selects_the_checkbox_to_accept_the_policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3129858200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Clicks on the Submit button",
+            "match": {
+              "location": "DrugsFormPageSteps.clicks_on_the_Submit_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Contact Us functionality on drugs.com",
+    "description": "",
+    "id": "contact-us-functionality-on-drugs.com",
+    "keyword": "Feature",
+    "uri": "ContactUsbyEsme.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "\r\nGiven:The user is on the Drugs.com homepage.",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2249131200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "The User searches for Metformin information",
+        "description": "",
+        "id": "drug-\u0026-medication-functionality;the-user-searches-for-metformin-information",
+        "after": [
+          {
+            "result": {
+              "duration": 1018935800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2609537800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on Drugs \u0026 Medication",
+            "match": {
+              "location": "DrugsHomePageSteps.the_user_clicks_on_Drugs_Medication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5546886800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enters the drug name",
+            "match": {
+              "location": "DrugsSearchPageSteps.enters_the_drug_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19599853700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on the search button",
+            "match": {
+              "location": "DrugsSearchPageSteps.clicks_on_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2091076200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the drug information is provided.",
+            "match": {
+              "location": "DrugsResultPageSteps.the_drug_information_is_provided()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Drug \u0026 Medication functionality",
+    "description": "",
+    "id": "drug-\u0026-medication-functionality",
+    "keyword": "Feature",
+    "uri": "Drugs\u0026MedicationbyEsme.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "\r\nGiven:The user is on the Drugs.com homepage.",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2269670800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "The User searches for New Drugs",
+        "description": "",
+        "id": "new-drugs-functionality;the-user-searches-for-new-drugs",
+        "after": [
+          {
+            "result": {
+              "duration": 931567200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2725079800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on new drugs",
+            "match": {
+              "location": "DrugsHomePageSteps.the_user_clicks_on_new_drugs()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48777600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should get all new drugs related information",
+            "match": {
+              "location": "DrugsResultPageSteps.user_should_get_all_new_drugs_related_information()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "New Drugs functionality",
+    "description": "",
+    "id": "new-drugs-functionality",
+    "keyword": "Feature",
+    "uri": "NewDrugsbyShajia.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2203646300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Pet CRUD API",
+        "description": "",
+        "id": "petstore-api-testing;pet-crud-api",
+        "after": [
+          {
+            "result": {
+              "duration": 810321200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2664996200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create pet",
+            "match": {
+              "location": "ApiPetStoreStepDef.create_pet()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170074500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Get pet",
+            "match": {
+              "location": "ApiPetStoreStepDef.get_pet()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Petstore API Testing",
+    "description": "",
+    "id": "petstore-api-testing",
+    "keyword": "Feature",
+    "uri": "PetStoreApi.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2271214000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Pet CRUD API",
+        "description": "",
+        "id": "petstore--api-testing;pet-crud-api",
+        "after": [
+          {
+            "result": {
+              "duration": 759284200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 192757700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create user",
+            "match": {
+              "location": "PetstoreUserApiSteps.create_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171869900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Get user",
+            "match": {
+              "location": "PetstoreUserApiSteps.get_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157524700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Update user",
+            "match": {
+              "location": "PetstoreUserApiSteps.update_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160045400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Delete user",
+            "match": {
+              "location": "PetstoreUserApiSteps.delete_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Petstore  API Testing",
+    "description": "",
+    "id": "petstore--api-testing",
+    "keyword": "Feature",
+    "uri": "PetstoreUserApiTesting.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@api"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "Given: The user is on the Drugs.com homepage",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2204342000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Successful registration with valid details",
+        "description": "",
+        "id": "user-registration;successful-registration-with-valid-details",
+        "after": [
+          {
+            "result": {
+              "duration": 832783100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2697644400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user clicks on the Register on the top of the page",
+            "match": {
+              "location": "DrugsHomePageSteps.the_user_clicks_on_the_Register_on_the_top_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2215230200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enters the email address on the textbox",
+            "match": {
+              "location": "RegistrationPageSteps.enters_the_email_address_on_the_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2107871600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Clicks on Continue with email button",
+            "match": {
+              "location": "RegistrationPageSteps.clicks_on_Continue_with_email_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57515200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Clicks on I Do not consent button",
+            "match": {
+              "location": "HealthConsentPageSteps.clicks_on_I_Do_not_consent_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64226300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Health Privacy Consent and go back button should be displayed",
+            "match": {
+              "location": "ConsentPageSteps.health_Privacy_Consent_and_go_back_button_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Registration",
+    "description": "",
+    "id": "user-registration",
+    "keyword": "Feature",
+    "uri": "RegisterbyNur.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "\r\nGiven:The user is on the Drugs.com homepage.",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2215253200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User searches Side Effects for Adderall",
+        "description": "",
+        "id": "side-effects-functionality;user-searches-side-effects-for-adderall",
+        "after": [
+          {
+            "result": {
+              "duration": 995892700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2722209200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on Side Effects",
+            "match": {
+              "location": "DrugsHomePageSteps.the_user_clicks_on_Side_Effects()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3252585400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enters Adderall in the search box",
+            "match": {
+              "location": "DrugsSearchPageSteps.enters_Adderall_in_the_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5531596100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on the search",
+            "match": {
+              "location": "DrugsSearchPageSteps.clicks_on_the_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2685039400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the  Adderall Side Effects is provided",
+            "match": {
+              "location": "SideEffectsResultPageSteps.the_Adderall_Side_Effects_is_provided()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Side Effects functionality",
+    "description": "",
+    "id": "side-effects-functionality",
+    "keyword": "Feature",
+    "uri": "SideEffects.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]

@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5129937100,
+  "duration": 3920154500,
   "status": "passed"
 });
 formatter.background({
@@ -55,32 +55,32 @@ formatter.match({
   "location": "DrugsHomePageSteps.user_clicks_on_Browse_Conditions_on_the_homepage()"
 });
 formatter.result({
-  "duration": 2425830900,
+  "duration": 2373556100,
   "status": "passed"
 });
 formatter.match({
   "location": "DrugsHomePageSteps.user_clicks_on_Alphabet_A_below_the_condition()"
 });
 formatter.result({
-  "duration": 3117312500,
+  "duration": 2914407900,
   "status": "passed"
 });
 formatter.match({
   "location": "ConditionPageStepsDef.clicks_on_Abdominal_Pain_under_Common_heading()"
 });
 formatter.result({
-  "duration": 5844697100,
+  "duration": 2928623500,
   "status": "passed"
 });
 formatter.match({
   "location": "DrugsResultPageSteps.user_should_get_all_information_realted_to_abdominal_pain()"
 });
 formatter.result({
-  "duration": 1212584800,
+  "duration": 48464400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1256783200,
+  "duration": 826491800,
   "status": "passed"
 });
 formatter.uri("ContactUsbyEsme.feature");
@@ -98,7 +98,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3059658700,
+  "duration": 2367189900,
   "status": "passed"
 });
 formatter.background({
@@ -117,7 +117,7 @@ formatter.match({
   "location": "DrugsHomePageSteps.the_user_is_on_drugs_com_Homepage()"
 });
 formatter.result({
-  "duration": 3033900,
+  "duration": 597300,
   "status": "passed"
 });
 formatter.scenario({
@@ -162,46 +162,46 @@ formatter.match({
   "location": "DrugsHomePageSteps.the_user_clicks_on_the_Contact_Us_button()"
 });
 formatter.result({
-  "duration": 6392982200,
+  "duration": 5923799000,
   "status": "passed"
 });
 formatter.match({
   "location": "DrugsContactPageSteps.clicks_on_the_Contact_form_button()"
 });
 formatter.result({
-  "duration": 11381381600,
+  "duration": 10025708800,
   "status": "passed"
 });
 formatter.match({
   "location": "DrugsFormPageSteps.selects_the_app_feedback_suggestion_from_the_drop_down()"
 });
 formatter.result({
-  "duration": 3168307300,
+  "duration": 3127677400,
   "status": "passed"
 });
 formatter.match({
   "location": "DrugsFormPageSteps.fills_out_the_Name_Email_address_and_Message()"
 });
 formatter.result({
-  "duration": 9866020300,
+  "duration": 9599325500,
   "status": "passed"
 });
 formatter.match({
   "location": "DrugsFormPageSteps.selects_the_checkbox_to_accept_the_policy()"
 });
 formatter.result({
-  "duration": 3103784100,
+  "duration": 3091975600,
   "status": "passed"
 });
 formatter.match({
   "location": "DrugsFormPageSteps.clicks_on_the_Submit_button()"
 });
 formatter.result({
-  "duration": 3155954700,
+  "duration": 3129858200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1005643100,
+  "duration": 955531800,
   "status": "passed"
 });
 formatter.uri("Drugs\u0026MedicationbyEsme.feature");
@@ -219,7 +219,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2835576400,
+  "duration": 2249131200,
   "status": "passed"
 });
 formatter.background({
@@ -261,34 +261,33 @@ formatter.match({
   "location": "DrugsHomePageSteps.the_user_clicks_on_Drugs_Medication()"
 });
 formatter.result({
-  "duration": 2901935100,
+  "duration": 2609537800,
   "status": "passed"
 });
 formatter.match({
   "location": "DrugsSearchPageSteps.enters_the_drug_name()"
 });
 formatter.result({
-  "duration": 5369250400,
+  "duration": 5546886800,
   "status": "passed"
 });
 formatter.match({
   "location": "DrugsSearchPageSteps.clicks_on_the_search_button()"
 });
 formatter.result({
-  "duration": 109394568300,
-  "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: unable to send message to renderer\n  (Session info: chrome\u003d128.0.6613.119)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027DESKTOP-S20TJ16\u0027, ip: \u0027192.168.1.13\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\\Users\\eguru\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0813ad999d13c970d0a99e2a7995a86f\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat hulk.drugs.pageAction.DrugsSearchPageActions.ClickSearchBtn(DrugsSearchPageActions.java:41)\r\n\tat hulk.drugs.stepDef.DrugsSearchPageSteps.clicks_on_the_search_button(DrugsSearchPageSteps.java:20)\r\n\tat ✽.And clicks on the search button(Drugs\u0026MedicationbyEsme.feature:10)\r\n",
-  "status": "failed"
+  "duration": 19599853700,
+  "status": "passed"
 });
 formatter.match({
   "location": "DrugsResultPageSteps.the_drug_information_is_provided()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2091076200,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 6652700,
-  "error_message": "org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome\u003d128.0.6613.119)\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027DESKTOP-S20TJ16\u0027, ip: \u0027192.168.1.13\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\\Users\\eguru\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55228}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0813ad999d13c970d0a99e2a7995a86f\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:289)\r\n\tat hulk.utilities.TakeScreenshot.screenshots(TakeScreenshot.java:21)\r\n\tat hulk.utilities.AfterActions.afterActions(AfterActions.java:14)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:37)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:31)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:211)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\r\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\r\n\tat cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\r\n\tat org.testng.TestRunner.run(TestRunner.java:617)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)\r\n",
-  "status": "failed"
+  "duration": 1018935800,
+  "status": "passed"
 });
 formatter.uri("NewDrugsbyShajia.feature");
 formatter.feature({
@@ -305,7 +304,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 1725280100,
+  "duration": 2269670800,
   "status": "passed"
 });
 formatter.background({
@@ -337,18 +336,18 @@ formatter.match({
   "location": "DrugsHomePageSteps.the_user_clicks_on_new_drugs()"
 });
 formatter.result({
-  "duration": 4296226800,
+  "duration": 2725079800,
   "status": "passed"
 });
 formatter.match({
   "location": "DrugsResultPageSteps.user_should_get_all_new_drugs_related_information()"
 });
 formatter.result({
-  "duration": 121466400,
+  "duration": 48777600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 839203100,
+  "duration": 931567200,
   "status": "passed"
 });
 formatter.uri("PetStoreApi.feature");
@@ -366,7 +365,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2258874200,
+  "duration": 2203646300,
   "status": "passed"
 });
 formatter.scenario({
@@ -389,4 +388,284 @@ formatter.step({
 });
 formatter.match({
   "location": "ApiPetStoreStepDef.create_pet()"
+});
+formatter.result({
+  "duration": 2664996200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ApiPetStoreStepDef.get_pet()"
+});
+formatter.result({
+  "duration": 170074500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 810321200,
+  "status": "passed"
+});
+formatter.uri("PetstoreUserApiTesting.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Petstore  API Testing",
+  "description": "",
+  "id": "petstore--api-testing",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@regression"
+    },
+    {
+      "line": 1,
+      "name": "@api"
+    }
+  ]
+});
+formatter.before({
+  "duration": 2271214000,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 4,
+  "name": "Pet CRUD API",
+  "description": "",
+  "id": "petstore--api-testing;pet-crud-api",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 6,
+  "name": "Create user",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "Get user",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Update user",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "Delete user",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "PetstoreUserApiSteps.create_user()"
+});
+formatter.result({
+  "duration": 192757700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PetstoreUserApiSteps.get_user()"
+});
+formatter.result({
+  "duration": 171869900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PetstoreUserApiSteps.update_user()"
+});
+formatter.result({
+  "duration": 157524700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PetstoreUserApiSteps.delete_user()"
+});
+formatter.result({
+  "duration": 160045400,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 759284200,
+  "status": "passed"
+});
+formatter.uri("RegisterbyNur.feature");
+formatter.feature({
+  "line": 2,
+  "name": "User Registration",
+  "description": "",
+  "id": "user-registration",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@regression"
+    }
+  ]
+});
+formatter.before({
+  "duration": 2204342000,
+  "status": "passed"
+});
+formatter.background({
+  "line": 4,
+  "name": "",
+  "description": "Given: The user is on the Drugs.com homepage",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.scenario({
+  "line": 7,
+  "name": "Successful registration with valid details",
+  "description": "",
+  "id": "user-registration;successful-registration-with-valid-details",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 8,
+  "name": "The user clicks on the Register on the top of the page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "Enters the email address on the textbox",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Clicks on Continue with email button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Clicks on I Do not consent button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "Health Privacy Consent and go back button should be displayed",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DrugsHomePageSteps.the_user_clicks_on_the_Register_on_the_top_of_the_page()"
+});
+formatter.result({
+  "duration": 2697644400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationPageSteps.enters_the_email_address_on_the_textbox()"
+});
+formatter.result({
+  "duration": 2215230200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "RegistrationPageSteps.clicks_on_Continue_with_email_button()"
+});
+formatter.result({
+  "duration": 2107871600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HealthConsentPageSteps.clicks_on_I_Do_not_consent_button()"
+});
+formatter.result({
+  "duration": 57515200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ConsentPageSteps.health_Privacy_Consent_and_go_back_button_should_be_displayed()"
+});
+formatter.result({
+  "duration": 64226300,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 832783100,
+  "status": "passed"
+});
+formatter.uri("SideEffects.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Side Effects functionality",
+  "description": "",
+  "id": "side-effects-functionality",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@regression"
+    }
+  ]
+});
+formatter.before({
+  "duration": 2215253200,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "",
+  "description": "\r\nGiven:The user is on the Drugs.com homepage.",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.scenario({
+  "line": 7,
+  "name": "User searches Side Effects for Adderall",
+  "description": "",
+  "id": "side-effects-functionality;user-searches-side-effects-for-adderall",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 8,
+  "name": "the user clicks on Side Effects",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "enters Adderall in the search box",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "clicks on the search",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "the  Adderall Side Effects is provided",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DrugsHomePageSteps.the_user_clicks_on_Side_Effects()"
+});
+formatter.result({
+  "duration": 2722209200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DrugsSearchPageSteps.enters_Adderall_in_the_search_box()"
+});
+formatter.result({
+  "duration": 3252585400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DrugsSearchPageSteps.clicks_on_the_search()"
+});
+formatter.result({
+  "duration": 5531596100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SideEffectsResultPageSteps.the_Adderall_Side_Effects_is_provided()"
+});
+formatter.result({
+  "duration": 2685039400,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 995892700,
+  "status": "passed"
+});
 });
