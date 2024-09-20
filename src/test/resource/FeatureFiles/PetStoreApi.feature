@@ -3,7 +3,6 @@ Feature: Petstore API Testing
 
 Scenario: Pet CRUD API
 	
-<<<<<<< Updated upstream
 	Given Create pet
 	And Get pet
 =======
@@ -13,4 +12,3 @@ Scenario: Pet CRUD API
 	Then Get pet
 	And Delete pet
 	
->>>>>>> Stashed changes

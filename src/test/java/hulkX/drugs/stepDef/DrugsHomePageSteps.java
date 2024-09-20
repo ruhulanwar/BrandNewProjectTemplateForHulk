@@ -25,7 +25,17 @@ public class DrugsHomePageSteps {
 	   DrugsHomePageActionsobj.ClickContactUs();
 	}
 	
-<<<<<<< Updated upstream
+
+	@When("^Click on Drugs A-Z$")
+	public void click_on_Drugs_A_Z() throws Throwable {
+		DrugsHomePageActionsobj.clickDrugsAtoZ();
+	}
+	
+	@When("^Click on Advanced Search$")
+	public void click_on_Advanced_Search() throws Throwable {
+	    DrugsHomePageActionsobj.clickAdvancedSearch();
+	}
+
 	@When("^the user clicks on Side Effects$")
 	public void the_user_clicks_on_Side_Effects() throws Throwable {
 		 DrugsHomePageActionsobj.ClickSideEffects();  
@@ -52,8 +62,20 @@ public class DrugsHomePageSteps {
 	 DrugsHomePageActionsobj.ClickRegister();
 	}
 	
-}
-=======
+
+	//ELI
+	@When("^clicks on treatment guides link$")
+	public void clicks_on_treatment_guides_link() throws Throwable {
+		DrugsHomePageActionsobj.ClickTreatmentGuides();
+	}
+	
+	@When("^clicks on Health Professionals link$")
+	public void clicks_on_Health_Professionals_link() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		DrugsHomePageActionsobj.ClickHealthProfessionals();
+	}
+	
+
 	@Given("^browse to drugs\\.com$")
 	public void browse_to_drugs_com() throws Throwable {
 	    
@@ -68,7 +90,6 @@ public class DrugsHomePageSteps {
 	@When("^Click on the Pill Identifier$")
 	public void click_on_the_Pill_Identifier() throws Throwable {
 		DrugsHomePageActionsobj.ClickPillIndetifier();
+	}
 
 }
-}
->>>>>>> Stashed changes

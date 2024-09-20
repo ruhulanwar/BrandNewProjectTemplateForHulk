@@ -17,8 +17,20 @@ public class DrugsSearchPageActions {
 	
 	public void DrugName() throws Exception{
 		DrugsSearchPageLocatorsobj.Searchtxtbx.sendKeys("Metformin");
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 	}
+	
+	public void sideEffectsDrug() throws Exception{
+		DrugsSearchPageLocatorsobj.SearchSideEffectstxtbx.sendKeys("Adderall");
+		Thread.sleep(3000);
+	
+	}
+	public void SideESearch() throws Exception{
+		DrugsSearchPageLocatorsobj.SideEffectsSearch.click();
+	
+		Thread.sleep(3000);
+	}
+	
 	
 	public void ClickSearchBtn() throws Exception{
 		DrugsSearchPageLocatorsobj.SearchBtn.click();
@@ -55,5 +67,20 @@ public class DrugsSearchPageActions {
 		DrugsSearchPageLocatorsobj.advnSrchBtn.click();
 		Thread.sleep(2000);
 	}
+	
+	
+	//Treatment Guides
+	public void EnterTreatmentGuides() throws Exception{
+		DrugsSearchPageLocatorsobj.SearchTreatmentGuidesTxtbx.sendKeys("Cancer");
+		Thread.sleep(5000);
+	}
+	
+	// Health Professionals
+	public void EnterDrugNameHP() throws Exception{
+		DrugsSearchPageLocatorsobj.Searchtxtbx.sendKeys("Insulin");
+		Thread.sleep(5000);
+	}
+	
+	
 	
 }
