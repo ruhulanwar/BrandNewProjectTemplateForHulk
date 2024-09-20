@@ -19,20 +19,16 @@ public class DrugsSearchPageActions {
 		Thread.sleep(5000);
 	}
 	
-		public void sideEffectsDrug() throws Exception{
+	public void sideEffectsDrug() throws Exception{
 		DrugsSearchPageLocatorsobj.SearchSideEffectstxtbx.sendKeys("Adderall");
 		Thread.sleep(3000);
-		
-		}
-		public void SideESearch() throws Exception{
+	
+	}
+	public void SideESearch() throws Exception{
 		DrugsSearchPageLocatorsobj.SideEffectsSearch.click();
-		
+	
 		Thread.sleep(3000);
 	}
-	
-	
-
-	
 	
 	
 	public void ClickSearchBtn() throws Exception{
@@ -42,5 +38,21 @@ public class DrugsSearchPageActions {
 		Thread.sleep(5000);
 		
 	}
+	
+	
+	//Treatment Guides
+	public void EnterTreatmentGuides() throws Exception{
+		DrugsSearchPageLocatorsobj.SearchTreatmentGuidesTxtbx.sendKeys("Cancer");
+		Thread.sleep(5000);
+	}
+	
+	// Health Professionals
+	public void EnterDrugNameHP() throws Exception{
+		DrugsSearchPageLocatorsobj.Searchtxtbx.sendKeys("Insulin");
+		Thread.sleep(5000);
+	}
+	
+	
+	
 	
 }

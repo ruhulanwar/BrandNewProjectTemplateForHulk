@@ -21,4 +21,18 @@ public class DrugsResultPageSteps {
 	public void user_should_get_all_new_drugs_related_information() throws Throwable {
 	    DrugsResultPageActionsobj.verifyNewDrugsInfo();
 	}
+	
+
+	//Treatment Guides
+	@Then("^all information about cancer should be displayed$")
+	public void all_information_about_cancer_should_be_displayed() throws Throwable {
+		DrugsResultPageActionsobj.verifyTreatmentGuidesInfo();
+	}
+	
+	//Health Professionals
+	@Then("^all information about insulin should be displayed$")
+	public void all_information_about_insulin_should_be_displayed() throws Throwable {
+		DrugsResultPageActionsobj.verifyHealthProfessionalsInfo();
+	}
+
 }

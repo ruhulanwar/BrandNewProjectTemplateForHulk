@@ -13,4 +13,11 @@ public class DrugsResultPageLocators {
 	
 	@FindBy (xpath=" //*[text()='New Drug Approvals']")
 	public WebElement NewDrugsInfo;
+	
+	@FindBy (xpath="(//*[text()='Cancer'])[2]")
+	public WebElement TreatmentGuideName;
+	
+	@FindBy (xpath="(//*[text()='Insulin'])[2]")
+	public WebElement DrugNameHPName;
+	
 }

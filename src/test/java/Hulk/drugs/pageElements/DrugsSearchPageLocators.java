@@ -14,4 +14,13 @@ public class DrugsSearchPageLocators {
 	public WebElement SearchSideEffectstxtbx;
 	 @FindBy(xpath="(//button[@type='submit'])[2]")
 	 public WebElement SideEffectsSearch;
+	 
+	//ELI: Treatment Guides 
+	@FindBy (xpath="//input[@placeholder='Enter a condition, e.g. acne']")
+	public WebElement SearchTreatmentGuidesTxtbx;
+	
+	//@FindBy (xpath="//input[@placeholder='Enter a drug name']")
+	//public WebElement SearchDrugNameTxtbx;
+	
+	
 }

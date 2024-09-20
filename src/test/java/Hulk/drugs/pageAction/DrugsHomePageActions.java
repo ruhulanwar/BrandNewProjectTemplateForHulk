@@ -54,4 +54,21 @@ public void ClickRegister() throws Exception{
 }
 
 
+	// ELI
+	public void ClickTreatmentGuides() throws Exception{
+		DrugsHomePageLocatorsobj.ClickCarauselNextBtn.click();
+		DrugsHomePageLocatorsobj.ClickCarauselNextBtn.click();
+		DrugsHomePageLocatorsobj.TreatmentGuides.click();
+		Thread.sleep(3000);	
+	}
+	
+	public void ClickHealthProfessionals() throws Exception{
+		DrugsHomePageLocatorsobj.HealthProfessionals.click();
+		Thread.sleep(2000);	
+	}
+	
+	
+
+
+
 }

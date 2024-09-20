@@ -50,4 +50,16 @@ public class DrugsHomePageSteps {
 	 DrugsHomePageActionsobj.ClickRegister();
 	}
 	
+	//ELI
+	@When("^clicks on treatment guides link$")
+	public void clicks_on_treatment_guides_link() throws Throwable {
+		DrugsHomePageActionsobj.ClickTreatmentGuides();
+	}
+	
+	@When("^clicks on Health Professionals link$")
+	public void clicks_on_Health_Professionals_link() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		DrugsHomePageActionsobj.ClickHealthProfessionals();
+	}
+	
 }
