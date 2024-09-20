@@ -1,0 +1,18 @@
+{
+    "id": 7,
+    "category": {
+        "id": 7,
+        "name": "sana"
+    },
+    "name": "kitto Madam123",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "sana"
+        }
+    ],
+    "status": "available"
+}
