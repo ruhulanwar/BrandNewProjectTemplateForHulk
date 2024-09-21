@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.573736">
+<testcase classname="Drug &amp; Medication functionality" name="The User searches for Metformin information" time="20.573736">
+<system-out><![CDATA[When the user clicks on Drugs & Medication..................................passed
+And enters the drug name....................................................passed
+And clicks on the search button.............................................passed
+Then the drug information is provided.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression">
+<<<<<<< HEAD
 	<test name="drugs">
 		<classes>
 			<class name="hulk.runners.RunnerClass" />
 		</classes>
 	</test> <!-- Test -->
 </suite><!-- Suite  -->
+=======
+  <test name="drugs">
+   <classes>
+      <class name="hulk.runners.RunnerClass"/>
+    </classes>
+  </test>
+<!-- Test -->
+</suite>
+<!-- Suite -->
+
+
+>>>>>>> 5f8c46e (trial from esme)

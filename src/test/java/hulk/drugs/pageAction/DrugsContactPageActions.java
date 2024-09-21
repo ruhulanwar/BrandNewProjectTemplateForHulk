@@ -1,23 +1,32 @@
 package hulk.drugs.pageAction;
 
+
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.support.PageFactory;
 
 import hulk.drugs.pageElements.DrugsContactPageLocators;
 import hulk.utilities.SetupDrivers;
 
 public class DrugsContactPageActions {
-DrugsContactPageLocators DrugsContactPageLocatorsobj;
+DrugsContactPageLocators DrugsContactPageLocatorsObj;
 
 public DrugsContactPageActions(){
-	DrugsContactPageLocatorsobj= new DrugsContactPageLocators();
+	DrugsContactPageLocatorsObj= new DrugsContactPageLocators();
+	PageFactory.initElements(SetupDrivers.driver, DrugsContactPageLocatorsObj);
 }
-
-
+public void javaScriptExecutor(){
+	JavascriptExecutor js = (JavascriptExecutor)hulk.utilities.SetupDrivers.driver;
 	
+js.executeScript("arguments[0].scrollIntoView();", DrugsContactPageLocatorsObj.ContactForm);
+}
 	public void ClickContactForm() throws Exception{
-		DrugsContactPageLocatorsobj.ContactForm.isEnabled();
-		DrugsContactPageLocatorsobj.ContactForm.click();
-		Thread.sleep(5000);
+		
+		DrugsContactPageLocatorsObj.ContactForm.click();
+		
+		Thread.sleep(8000);
 		
 	}
-}
+		
+	}
+
+//checking
